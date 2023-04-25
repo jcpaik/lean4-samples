@@ -1,8 +1,4 @@
+import «HelloWorld»
 
 def main : IO Unit :=
-  IO.println "Hello, world!"
-
-
-#eval main
-
-#eval Lean.versionString
+  IO.println s!"Hello, {hello}!"
