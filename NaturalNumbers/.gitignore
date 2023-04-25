@@ -1,4 +1,2 @@
-*.lean.md
-.ninja_log
-__pycache__/
-docs/
+/build
+/lake-packages/*
